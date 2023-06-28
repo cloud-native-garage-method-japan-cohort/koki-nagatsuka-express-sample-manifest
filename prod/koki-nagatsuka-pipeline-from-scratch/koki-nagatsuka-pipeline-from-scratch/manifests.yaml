@@ -38,7 +38,7 @@ spec:
         - name: PROTOCOLS
         - name: LOG_LEVEL
           value: debug
-        image: quay.io/koki_nagatsuka/express-sample-app:b4e314fd5441fcf607105382f95e9cb2f503e0a4
+        image: quay.io/koki_nagatsuka/express-sample-app:f52ede7753bb3203e3da0ed414caeb1613516443
         imagePullPolicy: IfNotPresent
         livenessProbe:
           failureThreshold: 3
